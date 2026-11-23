@@ -1,0 +1,28 @@
+# 인증정보와 환경 설정
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 개인 자료와 백업
+private/
+personal/
+backups/
+*.backup
+*.bak
+sat_analysis_data*.json
+koreanSatAnalyzer*.json
+
+# 로컬 작업 파일
+node_modules/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+screenshots/
+test-results/
+playwright-report/
